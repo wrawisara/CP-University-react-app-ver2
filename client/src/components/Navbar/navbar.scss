@@ -1,0 +1,50 @@
+.sidebar{
+    margin-left: 1.5rem;
+    align-items: center;
+    margin-top: 7rem;
+    .logo span span{
+        background-color: #54ab88;
+        background-image: linear-gradient(90deg, #54ab88 ,#4daaa0,#6598a1);
+        background-size: 100%; -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        -moz-text-fill-color: transparent;
+    }
+    
+    .logo span{
+        color: black;
+    }
+    .menu .menuitem .menuhome {
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .sidebarMenu {
+        margin-bottom: 10px;
+      }
+
+      .sidebarList {
+        list-style: none;
+        padding: 5px;
+      }
+      
+      .sidebarListItem {
+        padding: 5px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+      }
+      
+      .sidebarListItem.active,
+      .sidebarListItem:hover {
+        background-color: rgb(240, 240, 255);
+      }
+      
+      .sidebarIcon{
+          margin-right: 5px;
+          font-size: 20px !important;
+      }
+}
+
+  

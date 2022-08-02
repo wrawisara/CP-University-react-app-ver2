@@ -1,0 +1,27 @@
+/*Widget*/
+.middleside{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    .widgets {
+        display: flex;
+        padding: 15px;
+        gap: 20px;
+        width: 100%;
+   
+    }
+    .previewCards {
+        display: flex;
+    }
+    h1 {
+        margin-top: 2rem;
+        font-weight: 530;
+    }
+    .tables{
+        padding: 15px;
+        width: 100%;
+    }
+   
+    
+}
+

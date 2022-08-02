@@ -1,0 +1,32 @@
+.chartpage{
+    background: linear-gradient(
+      106.37deg,
+      #b2e7db 29.63% ,
+      #6fc7a7 51.55%,
+      #0fbaac 90.85%
+      
+    );
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    
+    .chartpageglass{
+        display: grid;
+        height: 97%;
+        width: 97%;
+        border-radius: 2rem;
+        background-color: rgba( 255, 255, 255, 0.4 );
+        overflow: hidden;
+        grid-template-columns: 11rem auto 20rem;
+      }
+      .graph{
+        padding: 20px;
+        margin-left: 60px;
+        align-items: center;
+        width: 130vh;
+        height: 90%;
+      }
+  }
+  
